@@ -1,0 +1,113 @@
+.login-form {
+  width: 400px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+form {
+  border: 1px solid #ddd;
+  padding: 50px;
+  box-shadow: 2px 2px 5px #ccc;
+  border-radius: 10px;
+}
+
+h2 {
+  margin-bottom: 30px;
+}
+
+.form-group {
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  height: 60px;
+  padding: 0 20px;
+}
+
+.navbar-left {
+  margin-right: auto;
+}
+
+.navbar-right {
+  margin-left: auto;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav-text {
+  font-size: 20px;
+}
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 2px 2px 8px #ddd;
+  width: 500px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.card-header {
+  background-color: #333;
+  color: #fff;
+  font-size: 30px;
+  padding: 20px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+p {
+  font-size: 20px;
+}
+.btn {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
